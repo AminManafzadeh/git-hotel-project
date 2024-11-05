@@ -1,0 +1,16 @@
+.seperator {
+  display: inline-block;
+  width: 1px;
+  height: 30px;
+  background-color: #94a3b8;
+  margin: 0 1rem;
+}
+
+#appLayout {
+  height: calc(100vh - 130px);
+}
+
+a.active {
+  color: blue;
+  font-weight: 700;
+}
