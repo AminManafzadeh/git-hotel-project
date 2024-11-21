@@ -31,7 +31,8 @@ function LocationList() {
                                 </div>
                             })
                         }
-                    </div></div>
+                    </div>
+                </div>
             }
         </div>
     )

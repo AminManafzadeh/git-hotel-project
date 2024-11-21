@@ -12,7 +12,7 @@ function Hotels() {
     return (
         <div className='flex flex-col gap-4'>
             <h2>Search Results ({allData.length})</h2>
-            {allData.map?.(item => {
+            {allData?.map(item => {
                 return (
                     <Link key={item.id} to={`/hotels/${item.id}?lat=${item.latitude}&lng=${item.longitude}`}>
                         <div className={`flex gap-4 ${item.id === currHotel?.id ? "border-2 border-solid -border--primary-700 rounded-2xl" : ""}`}>

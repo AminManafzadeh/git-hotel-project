@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap, useMapEvent } from 'react-leaflet'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Loader from './Loader'
 import useGeoLocation from '../Hooks/useGeoLocation'
 import useUrlLocation from '../Hooks/useUrlLocation'

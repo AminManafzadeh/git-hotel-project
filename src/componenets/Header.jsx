@@ -16,7 +16,7 @@ import { IoIosLogOut } from "react-icons/io";
 
 
 function Header() {
-    const [searchParams, setSearchParams] = useSearchParams()
+    const [searchParams] = useSearchParams()
     const [destination, setDestination] = useState(searchParams.get("destination") || "")
     const [openOptions, setOpenOptions] = useState(false)
     const [options, setOptions] = useState({
@@ -139,7 +139,7 @@ function GuestOptionsList({ options, handleOptions, setOpenOptions }) {
     ]
 
     return (
-        <div ref={optionsRef} className="bg-white shadow-md rounded-2xl p-4 border border-solid -border--text-100 absolute top-12 right-[-40px] w-56 z-50 space-y-2">
+        <div ref={optionsRef} className="bg-white shadow-md rounded-2xl p-4 border border-solid -border--text-100 absolute top-12 right-[-40px] w-56 space-y-2 z-[100000000000000000]">
             {
                 optionsInfo.map(item => {
                     return (

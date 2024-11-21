@@ -101,7 +101,7 @@ function BookmarkProvider({ children }) {
             dispatch({ type: "bookmarks/deleted", payload: id })
         } catch (error) {
             toast.error(error?.message)
-            dispatch({ type: "rejected", payload: "n Error accurred in deleted Bookmark" })
+            dispatch({ type: "rejected", payload: "an Error accurred in deleted Bookmark" })
         }
     }
 

@@ -1359,6 +1359,15 @@
       "longitude": "29.09059588509316",
       "host_location": "A Dakhla Oasis Egypt",
       "id": "4"
+    },
+    {
+      "id": "63c4",
+      "cityName": "Beloyarskiy",
+      "country": "Russian Federation (the)",
+      "countryCode": "RU",
+      "latitude": "63.54855223203644",
+      "longitude": "67.41151464585172",
+      "host_location": "Beloyarskiy Russian Federation (the)"
     }
   ]
 }

@@ -76,7 +76,7 @@ function AddNewBookmark() {
             <h2 className='font-bold my-2'>Bookmark New Location</h2>
             <form onSubmit={handleSubmit}>
                 <div className='mb-4 relative'>
-                    <label className='block mb-1 font-semibold' htmlFor="cityName">CityName</label>
+                    <label className='block mb-1 font-semibold' htmlFor="cityName">CityName :</label>
                     <input
                         className='p-2 rounded-lg w-full border border-solid -text--text-700'
                         type="text"
@@ -87,7 +87,7 @@ function AddNewBookmark() {
                     />
                 </div>
                 <div className='mb-4 relative'>
-                    <label className='block mb-1 font-semibold' htmlFor="country">Country</label>
+                    <label className='block mb-1 font-semibold' htmlFor="country">Country :</label>
                     <input
                         className='p-2 rounded-lg w-full border border-solid -text--text-700'
                         type="text"
@@ -107,6 +107,7 @@ function AddNewBookmark() {
                     </button>
 
                     <button
+                        type='submit'
                         className='py-1 px-3 rounded-lg border border-solid -border--text-400 flex items-center -bg--primary-600 text-[#fff]'
                     >
                         Add
